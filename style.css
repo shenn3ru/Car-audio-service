@@ -86,10 +86,84 @@ header .logo {
 ul {
     list-style-type: disc; 
 }
-.despre h2 {
-font-weight: bold;
-text-transform: uppercase;
-font-size: 40px; 
-text-align: center;
+.text {
+    font-size: 17px; 
+    background: #d9e6f7;
+    padding: 20px 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+    width: 20cm;
+    margin: 0 auto; 
+    text-align: left;
 
 }  
+.dn {
+    text-decoration: none;
+    color: white;
+    background: #163b6b;
+    padding: 10px 10px;
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 18cm;
+    display: inline-block;
+    text-align: center;
+
+}
+.servicii {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.servicii-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.serviciu {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.serviciu:hover {
+    transform: translateY(-10px);
+}
+
+.serviciu img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.serviciu h3 {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #163b6b;
+}
+
+.serviciu p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+.servicii h2 {
+    text-decoration: none;
+    color: white;
+    background: #163b6b;
+    padding: 10px 10px;
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+
+}
