@@ -133,6 +133,7 @@ const observer = new IntersectionObserver((entries, observer) => {
   threshold: 0.5  
 });
 
+
 images.forEach(image => {
   observer.observe(image);
 });
