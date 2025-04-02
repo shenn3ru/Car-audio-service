@@ -134,49 +134,4 @@ const observer = new IntersectionObserver((entries, observer) => {
 });
 
 
-images.forEach(image => {
-  observer.observe(image);
-});
-
-document.addEventListener("DOMContentLoaded", function () {
-  const images = document.querySelectorAll(".galerie .image");
-  
-  images.forEach(img => {
-      img.addEventListener("click", function () {
-          openImage(this);
-      });
-  });
-
-  function openImage(img) {
-      
-      let existingOverlay = document.querySelector(".image-overlay");
-      if (existingOverlay) {
-          existingOverlay.remove();
-      }
-
-      
-      let overlay = document.createElement("div");
-      overlay.classList.add("image-overlay");
-      
-      
-      let enlargedImg = document.createElement("img");
-      enlargedImg.src = img.src;
-      enlargedImg.alt = img.alt;
-      enlargedImg.classList.add("enlarged-image");
-
-      
-      let comment = document.createElement("p");
-      comment.classList.add("image-comment");
-
-      
-      overlay.appendChild(enlargedImg);
-      overlay.appendChild(comment);
-      document.body.appendChild(overlay);
-
-      
-      overlay.addEventListener("click", function () {
-          overlay.remove();
-      });
-  }
-});
 
