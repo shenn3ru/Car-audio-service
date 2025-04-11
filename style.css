@@ -115,7 +115,7 @@ ul {
     border-radius: 20px;
     font-size: 30px;
     font-weight: bold;
-    margin-left: 18cm;
+    margin-left: 19cm;
     display: inline-block;
     text-align: center;
 
@@ -185,6 +185,7 @@ ul {
     margin-top: 100px;
   }
   
+ 
 .image {
     width: 250px;
     height: 200px;
@@ -227,8 +228,15 @@ ul {
 }
 
 .contact h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+    background: #163b6b;
+    padding: 10px 10px;
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
 }
 
 .contact h3 {
