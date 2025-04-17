@@ -274,3 +274,78 @@ ul {
 .social-links img:hover {
     transform: scale(1.2);
 }
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .navigation a {
+        margin: 5px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .content {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .text {
+        width: 100%;
+        padding: 20px;
+        margin: 20px 0;
+    }
+
+    .dn {
+        margin-left: 0;
+        font-size: 24px;
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .servicii-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .serviciu {
+        width: 90%;
+    }
+
+    .galerie {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image {
+        width: 90%;
+        height: auto;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .social-links img {
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+    }
+}
